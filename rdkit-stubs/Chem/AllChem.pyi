@@ -89,3 +89,22 @@ from .rdchem import (
     _HasSubstructMatchStr as _HasSubstructMatchStr,
     tossit as tossit,
 )
+from .rdForceFieldHelpers import (
+    GetUFFAngleBendParams as GetUFFAngleBendParams,
+    GetUFFBondStretchParams as GetUFFBondStretchParams,
+    GetUFFInversionParams as GetUFFInversionParams,
+    GetUFFTorsionParams as GetUFFTorsionParams,
+    GetUFFVdWParams as GetUFFVdWParams,
+    MMFFGetMoleculeForceField as MMFFGetMoleculeForceField,
+    MMFFGetMoleculeProperties as MMFFGetMoleculeProperties,
+    MMFFHasAllMoleculeParams as MMFFHasAllMoleculeParams,
+    MMFFOptimizeMolecule as MMFFOptimizeMolecule,
+    MMFFOptimizeMoleculeConfs as MMFFOptimizeMoleculeConfs,
+    MMFFSanitizeMolecule as MMFFSanitizeMolecule,
+    OptimizeMolecule as OptimizeMolecule,
+    OptimizeMoleculeConfs as OptimizeMoleculeConfs,
+    UFFGetMoleculeForceField as UFFGetMoleculeForceField,
+    UFFHasAllMoleculeParams as UFFHasAllMoleculeParams,
+    UFFOptimizeMolecule as UFFOptimizeMolecule,
+    UFFOptimizeMoleculeConfs as UFFOptimizeMoleculeConfs,
+)
