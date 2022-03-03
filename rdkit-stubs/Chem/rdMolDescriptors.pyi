@@ -12,5 +12,3 @@ class AtomPairsParameters:
     numPiBits: ClassVar[int]
     numTypeBits: ClassVar[int]
     version: ClassVar[str]
-
-def __getattr__(name: str) -> Any: ...

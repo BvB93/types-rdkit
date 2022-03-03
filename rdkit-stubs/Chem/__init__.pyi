@@ -92,5 +92,3 @@ from .rdchem import (
     tossit as tossit,
 )
 from .rdMolDescriptors import AtomPairsParameters as AtomPairsParameters
-
-def __getattr__(name: str) -> Any: ...
