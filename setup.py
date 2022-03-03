@@ -6,7 +6,7 @@ with open('README.rst', "r", encoding='utf-8') as f:
 setup(
     name="types-rdkit",
     version="2021.09.4",
-    description="Typing stubs for setuptools",
+    description="Typing stubs for RDKit",
     long_description=long_description + "\n\n",
     long_description_content_type="text/x-rst",
     author="Bas van Beek",

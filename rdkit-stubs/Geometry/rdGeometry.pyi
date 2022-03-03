@@ -1,3 +1,5 @@
+from typing import Any
+
 class Point3D:
     def __getattr__(self, name: str) -> Any: ...
 
