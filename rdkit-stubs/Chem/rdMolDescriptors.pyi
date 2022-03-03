@@ -1,4 +1,4 @@
-from typing import ClassVar
+from typing import Any, ClassVar
 
 from ..rdBase import _vectj
 
@@ -12,3 +12,5 @@ class AtomPairsParameters:
     numPiBits: ClassVar[int]
     numTypeBits: ClassVar[int]
     version: ClassVar[str]
+
+def __getattr__(name: str) -> Any: ...

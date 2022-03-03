@@ -1,4 +1,1 @@
-from .rdGeometry import (
-    Point3D as Point3D,
-    Point2D as Point2D,
-)
+from .rdGeometry import Point2D as Point2D, Point3D as Point3D
