@@ -13,7 +13,7 @@ setup(
     url="https://github.com/BvB93/types-rdkit",
     install_requires=[],
     packages=['rdkit-stubs'],
-    package_data={'rdkit-stubs': ["py.typed", "*.pyi"]},
+    package_data={'rdkit-stubs': ["py.typed", "**/*.pyi"]},
     license="Apache-2.0 license",
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
