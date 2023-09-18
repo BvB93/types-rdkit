@@ -184,3 +184,22 @@ from .rdmolfiles import (
     TDTMolSupplier as TDTMolSupplier,
     TDTWriter as TDTWriter,
 )
+from .rdMolTransforms import (
+    CanonicalizeConformer as CanonicalizeConformer,
+    CanonicalizeMol as CanonicalizeMol,
+    ComputeCanonicalTransform as ComputeCanonicalTransform,
+    ComputeCentroid as ComputeCentroid,
+    ComputePrincipalAxesAndMoments as ComputePrincipalAxesAndMoments,
+    ComputePrincipalAxesAndMomentsFromGyrationMatrix as ComputePrincipalAxesAndMomentsFromGyrationMatrix,
+    GetAngleDeg as GetAngleDeg,
+    GetAngleRad as GetAngleRad,
+    GetBondLength as GetBondLength,
+    GetDihedralDeg as GetDihedralDeg,
+    GetDihedralRad as GetDihedralRad,
+    SetAngleDeg as SetAngleDeg,
+    SetAngleRad as SetAngleRad,
+    SetBondLength as SetBondLength,
+    SetDihedralDeg as SetDihedralDeg,
+    SetDihedralRad as SetDihedralRad,
+    TransformConformer as TransformConformer,
+)
